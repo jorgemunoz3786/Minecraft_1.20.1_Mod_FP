@@ -12,7 +12,6 @@ El objetivo es demostrar el uso de herramientas avanzadas del IDE y aplicar conc
 Entre sus elementos principales destacan:
 
 - **Mithril** — un nuevo mineral raro que puede extraerse y fundirse para obtener lingotes.
-- **Bloques decorativos** como el **Kebbab Block**, con texturas diferenciadas en la parte superior e inferior.
 - **Herramientas de Mithril**: espada, pico, hacha, pala y azada, con mayor durabilidad y velocidad que las de hierro.
 - **Alimentos especiales**, como el **Kebbab** y el **Durum**, que restauran la salud del jugador.
 
