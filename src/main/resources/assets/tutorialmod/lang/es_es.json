@@ -1,0 +1,49 @@
+{
+  "item.tutorialmod.durum": "Durum",
+  "item.tutorialmod.kebbab": "Kebbab",
+  "item.tutorialmod.mithril": "Mithril Crudo",
+  "item.tutorialmod.mithril_ingot": "Lingote de Mithril",
+
+  "block.tutorialmod.mithril_block": "Bloque de Mithril",
+  "block.tutorialmod.raw_mithril_block": "Bloque de Mithril Bruto",
+  "block.tutorialmod.kebbab_block": "Cocina Kebbab",
+
+  "item.tutorialmod.mithril_sword": "Espada de Mithril",
+  "item.tutorialmod.fire_sword": "Espada de Fuego",
+  "item.tutorialmod.mithril_pickaxe": "Pico de Mithril",
+  "item.tutorialmod.mithril_axe": "Hacha de Mithril",
+  "item.tutorialmod.mithril_shovel": "Pala de Mithril",
+  "item.tutorialmod.mithril_hoe": "Azada de Mithril",
+
+  "item.tutorialmod.mithril_helmet": "Casco de Mithril",
+  "item.tutorialmod.mithril_chestplate": "Pechera de Mithril",
+  "item.tutorialmod.mithril_leggings": "Grebas de Mithril",
+  "item.tutorialmod.mithril_boots": "Botas de Mithril",
+
+  "entity.minecraft.villager.tutorialmod.kebbab_cook": "Cocinero de Kebbab",
+
+  "creativetab.tutorial_tab": "Mod de Prueba",
+
+  "item.tutorialmod.gelida_ring": "Anillo Gélido",
+  "item.tutorialmod.gold_gelida_ring": "Anillo Dorado Gélido",
+  "item.tutorialmod.antigua_ring": "Anillo Antiguo",
+  "item.tutorialmod.gold_antigua_ring": "Anillo Dorado Antiguo",
+  "item.tutorialmod.musgosa_ring": "Anillo Musgoso",
+  "item.tutorialmod.gold_musgosa_ring": "Anillo Dorado Musgoso",
+  "item.tutorialmod.fungica_ring": "Anillo Fúngico",
+  "item.tutorialmod.gold_fungica_ring": "Anillo Dorado Fúngico",
+  "item.tutorialmod.cristal_ring": "Anillo Cristal",
+  "item.tutorialmod.gold_cristal_ring": "Anillo Dorado Cristal",
+  "item.tutorialmod.translucida_ring": "Anillo Translúcido",
+  "item.tutorialmod.gold_translucida_ring": "Anillo Dorado Translúcido",
+  "item.tutorialmod.coral_ring": "Anillo Coral",
+  "item.tutorialmod.gold_coral_ring": "Anillo Dorado Coral",
+  "item.tutorialmod.bruta_ring": "Anillo Bruto",
+  "item.tutorialmod.gold_bruta_ring": "Anillo Dorado Bruto",
+  "item.tutorialmod.dividida_ring": "Anillo Dividida",
+  "item.tutorialmod.gold_dividida_ring": "Anillo Dorado Dividido",
+  "item.tutorialmod.almas_ring": "Anillo Almas",
+  "item.tutorialmod.gold_almas_ring": "Anillo Dorado Almas",
+  "item.tutorialmod.purpura_ring": "Anillo Púrpura",
+  "item.tutorialmod.gold_purpura_ring": "Anillo Dorado Púrpura"
+}
