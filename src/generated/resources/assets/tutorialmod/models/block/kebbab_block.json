@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "tutorialmod:block/kebbab_block_bottom",
+    "side": "tutorialmod:block/kebbab_block_side",
+    "top": "tutorialmod:block/kebbab_block_top"
+  }
+}
