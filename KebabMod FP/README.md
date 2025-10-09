@@ -112,7 +112,7 @@ runData
 
 ---
 
-## 🧪 Funciones principales en código
+## Funciones principales en código
 
 Ejemplo de generación automática de un bloque con texturas diferenciadas:
 
@@ -135,7 +135,7 @@ private void kebbabBlockWithItem(RegistryObject<Block> blockRegistryObject) {
 
 ---
 
-## 🎓 Conclusión
+## Conclusión
 
 Este proyecto demuestra:
 
@@ -147,7 +147,7 @@ El resultado final es un mod funcional y bien estructurado, que combina **diseñ
 
 ---
 
-## 📸 Capturas sugeridas para la memoria
+## Capturas sugeridas para la memoria
 
 * Interfaz del proyecto en IntelliJ (vista de Gradle, estructura de paquetes).
 * Bloque Kebbab con sus texturas diferenciadas.
