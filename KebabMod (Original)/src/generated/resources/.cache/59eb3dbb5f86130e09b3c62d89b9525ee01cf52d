@@ -1,0 +1,4 @@
+// 1.20.1	2024-10-26T23:53:47.0439	Loot Tables
+5e06ac4c29f59bb63a8188b31638b668d42b6bea data/tutorialmod/loot_tables/blocks/kebbab_block.json
+c70f949ef1589c90fc2d5d270e80403ef504b185 data/tutorialmod/loot_tables/blocks/mithril_block.json
+561a6e32e5d3d773b829752438fd4632462947b8 data/tutorialmod/loot_tables/blocks/raw_mithril_block.json

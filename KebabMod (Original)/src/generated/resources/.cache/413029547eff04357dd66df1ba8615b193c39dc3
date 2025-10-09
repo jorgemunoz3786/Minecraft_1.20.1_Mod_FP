@@ -1,0 +1,10 @@
+// 1.20.1	2024-10-26T23:53:47.0458993	Block States: tutorialmod
+e950fd5208a3f848b79affca96de565b8d0a4d7a assets/tutorialmod/blockstates/kebbab_block.json
+747c96d79961751970479a81295ee97d5d7b860e assets/tutorialmod/blockstates/mithril_block.json
+e366bc225cb8e8a2492b3690c9d22f4d3534c05e assets/tutorialmod/blockstates/raw_mithril_block.json
+2b50f5f50c6f31a071459d6d78afb8f9b9190622 assets/tutorialmod/models/block/kebbab_block.json
+42e5703304521ee00d31ca5296d07f66ac495568 assets/tutorialmod/models/block/mithril_block.json
+5281e9a8606fb42a1a035b855a807e17515ecfd3 assets/tutorialmod/models/block/raw_mithril_block.json
+b826202e49e8563867ba3f5d3331294165d15f55 assets/tutorialmod/models/item/kebbab_block.json
+d281c01ad39661365b64f0db49b3c8a06eada981 assets/tutorialmod/models/item/mithril_block.json
+cc667ff68b23aa2a8f6c0e4dffc8341b519c9bc5 assets/tutorialmod/models/item/raw_mithril_block.json

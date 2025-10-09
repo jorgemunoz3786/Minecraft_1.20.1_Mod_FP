@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "tutorialmod:mithril_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " MM",
+    " SM",
+    " S "
+  ],
+  "result": {
+    "item": "tutorialmod:mithril_axe"
+  },
+  "show_notification": true
+}
