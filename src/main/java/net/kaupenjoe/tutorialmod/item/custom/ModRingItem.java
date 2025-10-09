@@ -2,10 +2,8 @@ package net.kaupenjoe.tutorialmod.item.custom;
 
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.Vec3;
 
@@ -22,21 +20,8 @@ public class ModRingItem extends Item {
         this.isGold = isGold;
     }
 
-    public void inventoryTick(ItemStack stack, Level level, LivingEntity entity, int slot, boolean selected) {
-        if (level.isClientSide) return; // Solo en servidor
-        if (!(entity instanceof Player player)) return;
-
-        // Activar efecto si el anillo está en cualquier ranura, mano o armadura
-        boolean hasRing = player.getInventory().items.stream().anyMatch(s -> s.is(this))
-                || player.getInventory().armor.stream().anyMatch(s -> s.is(this))
-                || player.getInventory().offhand.stream().anyMatch(s -> s.is(this));
-
-        if (hasRing) {
-            applyRingEffect(player);
-        }
-    }
-
-    private void applyRingEffect(Player player) {
+    // Este método se llamará desde RingEffectHandler
+    public void applyRingEffect(Player player) {
         switch (ringType) {
             case GELIDA -> {
                 if (isGold) player.setDeltaMovement(player.getDeltaMovement().multiply(1.05, 1.0, 1.05));
@@ -44,7 +29,7 @@ public class ModRingItem extends Item {
             }
             case ANTIGUA -> {
                 if (isGold) {
-                    player.level().getEntitiesOfClass(LivingEntity.class, player.getBoundingBox().inflate(8))
+                    player.level().getEntitiesOfClass(Player.class, player.getBoundingBox().inflate(8))
                             .forEach(e -> { if (e != player) e.setDeltaMovement(Vec3.ZERO); });
                 } else player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, EFFECT_DURATION, 0, true, false));
             }

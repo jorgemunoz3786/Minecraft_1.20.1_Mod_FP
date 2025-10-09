@@ -1,6 +1,25 @@
-// 1.20.1	2025-10-09T11:19:47.4859832	Item Models: tutorialmod
+// 1.20.1	2025-10-10T16:53:16.759179	Item Models: tutorialmod
+4f03e131677c225a1f5fe014deb00a7ae618eda3 assets/tutorialmod/models/item/almas_ring.json
+b45fb2307756d5d596b59f1ac095b0f588dc7c43 assets/tutorialmod/models/item/antigua_ring.json
+f85736cc4a8d21b4db08195efc376b5a1a0a398e assets/tutorialmod/models/item/bruta_ring.json
+3fc3714b0b5044f7bfa4638ea40ea035c12744a9 assets/tutorialmod/models/item/coral_ring.json
+d9e3f74278bf2fb406e09a6e3eb44c594f0df1b4 assets/tutorialmod/models/item/cristal_ring.json
+aadb33c8986f321afb273194fc971ff40c82b115 assets/tutorialmod/models/item/dividida_ring.json
 60e76ed15a08a3760513f8b587dca109de1cdddf assets/tutorialmod/models/item/durum.json
 4df33156c43b86ba5038bfb8e1240e8d1998727a assets/tutorialmod/models/item/fire_sword.json
+fa119fc4e4aad8ce96f52fc15715f2de17270329 assets/tutorialmod/models/item/fungica_ring.json
+e8c135f35a3dd3e3d7f15dc472691a1d8ed80628 assets/tutorialmod/models/item/gelida_ring.json
+9e5e413176898f76d3c1a8c6ca2f151a38557501 assets/tutorialmod/models/item/gold_almas_ring.json
+9065a9a9d546911f91596c9b00f6ccf5eb62325c assets/tutorialmod/models/item/gold_antigua_ring.json
+548ffc742b81a5e8ef83cc2e851ddf6a148f1130 assets/tutorialmod/models/item/gold_bruta_ring.json
+3047dfdca0a00743e29ad4a07bcd6e66a9174710 assets/tutorialmod/models/item/gold_coral_ring.json
+64150c753cdf9dd26bc85c6e709a660ee3b43b7a assets/tutorialmod/models/item/gold_cristal_ring.json
+0db87dd7e0d376a12fbbe9b4b2daf8ea10abde8d assets/tutorialmod/models/item/gold_dividida_ring.json
+7d3c37db494b7e678264fe264e55570546c16848 assets/tutorialmod/models/item/gold_fungica_ring.json
+000c2555712cb14ed1617f5a7cfbdea3569cfd70 assets/tutorialmod/models/item/gold_gelida_ring.json
+648d8cd4dbabe1dc00f9d32d29b3f82a06ea611f assets/tutorialmod/models/item/gold_musgosa_ring.json
+dc9e1036a7605e6d0ff9edf46877e306cf555f34 assets/tutorialmod/models/item/gold_purpura_ring.json
+1d3c42e66b075c961993308034cab661521160f1 assets/tutorialmod/models/item/gold_translucida_ring.json
 1a0c10f5772a3b67684d1121a36f9359b1b8ef8a assets/tutorialmod/models/item/kebbab.json
 80d7856140514f1ccc5b2a8b59c2cea2c65146d5 assets/tutorialmod/models/item/mithril.json
 75c83711c76b7a36484b78296dfb4466d6c165f0 assets/tutorialmod/models/item/mithril_axe.json
@@ -53,3 +72,6 @@ a8fb247138f8c77b3c24d06378a20c803fd5fefb assets/tutorialmod/models/item/mithril_
 ec24bff5f2276b0cee077d042c735396828b7fbe assets/tutorialmod/models/item/mithril_pickaxe.json
 4c7284dc354639223f2b3a7118f1766c8ae02662 assets/tutorialmod/models/item/mithril_shovel.json
 6a18b731995c7a22028fb74e98e029704590be67 assets/tutorialmod/models/item/mithril_sword.json
+1e0a12736184b6550847b958799bddc74dc9398a assets/tutorialmod/models/item/musgosa_ring.json
+2fad17a5092e6078efe5aa36c61b5ed9d39d9367 assets/tutorialmod/models/item/purpura_ring.json
+985822d4093be629f4c00917ed09ef01759fc6f9 assets/tutorialmod/models/item/translucida_ring.json
