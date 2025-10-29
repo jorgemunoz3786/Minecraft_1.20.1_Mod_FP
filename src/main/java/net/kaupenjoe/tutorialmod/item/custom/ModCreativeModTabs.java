@@ -21,27 +21,30 @@ public class ModCreativeModTabs {
                     .title(Component.translatable("creativetab.tutorial_tab"))
                     .displayItems((parameters, output) -> {
 
-                        // 🥪 Comida y materiales
+
+                        //Se han ocultado algunos items por el bien del mod y no eliminar el contenido
+
+                        // Comida y materiales
                         output.accept(ModItems.KEBBAB.get());
                         output.accept(ModItems.DURUM.get());
-                        output.accept(ModItems.RAW_MITHRIL.get());
-                        output.accept(ModItems.MITHRIL_INGOT.get());
+                        //output.accept(ModItems.RAW_MITHRIL.get());
+                        //output.accept(ModItems.MITHRIL_INGOT.get());
 
-                        // ⚔️ Herramientas
-                        output.accept(ModItems.MITHRIL_SWORD.get());
-                        output.accept(ModItems.MITHRIL_PICKAXE.get());
-                        output.accept(ModItems.MITHRIL_AXE.get());
-                        output.accept(ModItems.MITHRIL_SHOVEL.get());
-                        output.accept(ModItems.MITHRIL_HOE.get());
-                        output.accept(ModItems.FIRE_SWORD.get());
+                        // Herramientas
+                        //output.accept(ModItems.MITHRIL_SWORD.get());
+                        //output.accept(ModItems.MITHRIL_PICKAXE.get());
+                        //output.accept(ModItems.MITHRIL_AXE.get());
+                        //output.accept(ModItems.MITHRIL_SHOVEL.get());
+                        //output.accept(ModItems.MITHRIL_HOE.get());
+                        //output.accept(ModItems.FIRE_SWORD.get());
 
-                        // 🛡️ Armaduras
-                        output.accept(ModItems.MITHRIL_HELMET.get());
-                        output.accept(ModItems.MITHRIL_CHESTPLATE.get());
-                        output.accept(ModItems.MITHRIL_LEGGINGS.get());
-                        output.accept(ModItems.MITHRIL_BOOTS.get());
+                        // Armaduras
+                        //output.accept(ModItems.MITHRIL_HELMET.get());
+                        //output.accept(ModItems.MITHRIL_CHESTPLATE.get());
+                        //output.accept(ModItems.MITHRIL_LEGGINGS.get());
+                        //output.accept(ModItems.MITHRIL_BOOTS.get());
 
-                        // 💍 Anillos normales
+                        // Anillos normales
                         output.accept(ModItems.GELIDA_RING.get());
                         output.accept(ModItems.ANTIGUA_RING.get());
                         output.accept(ModItems.MUSGOSA_RING.get());
@@ -54,7 +57,7 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.ALMAS_RING.get());
                         output.accept(ModItems.PURPURA_RING.get());
 
-                        // 💫 Anillos dorados
+                        // Anillos dorados
                         output.accept(ModItems.GOLD_GELIDA_RING.get());
                         output.accept(ModItems.GOLD_ANTIGUA_RING.get());
                         output.accept(ModItems.GOLD_MUSGOSA_RING.get());
@@ -67,8 +70,8 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.GOLD_ALMAS_RING.get());
                         output.accept(ModItems.GOLD_PURPURA_RING.get());
 
-                        // 🧱 Bloques
-                        output.accept(ModBlocks.RAW_MITHRIL_BLOCK.get());
+                        // Bloques
+                        //output.accept(ModBlocks.RAW_MITHRIL_BLOCK.get());
                         output.accept(ModBlocks.KEBBAB_BLOCK.get());
                     })
                     .build());

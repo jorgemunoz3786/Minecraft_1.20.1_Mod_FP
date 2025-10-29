@@ -2,6 +2,7 @@ package net.kaupenjoe.tutorialmod.datagen;
 
 import net.kaupenjoe.tutorialmod.TutorialMod;
 import net.kaupenjoe.tutorialmod.item.ModItems;
+import net.kaupenjoe.tutorialmod.item.custom.ModRings;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
@@ -41,11 +42,13 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
+        // === BASIC ITEMS ===
         simpleItem(ModItems.RAW_MITHRIL);
         simpleItem(ModItems.MITHRIL_INGOT);
         simpleItem(ModItems.KEBBAB);
         simpleItem(ModItems.DURUM);
 
+        // === TOOLS ===
         handheldItem(ModItems.FIRE_SWORD);
         handheldItem(ModItems.MITHRIL_SWORD);
         handheldItem(ModItems.MITHRIL_PICKAXE);
@@ -53,10 +56,45 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.MITHRIL_SHOVEL);
         handheldItem(ModItems.MITHRIL_HOE);
 
+        // === ARMORS (con trims) ===
         trimmedArmorItem(ModItems.MITHRIL_HELMET);
         trimmedArmorItem(ModItems.MITHRIL_CHESTPLATE);
         trimmedArmorItem(ModItems.MITHRIL_LEGGINGS);
         trimmedArmorItem(ModItems.MITHRIL_BOOTS);
+
+        // === RINGS ===
+        simpleItem(ModItems.GELIDA_RING);
+        simpleItem(ModItems.GOLD_GELIDA_RING);
+
+        simpleItem(ModItems.ANTIGUA_RING);
+        simpleItem(ModItems.GOLD_ANTIGUA_RING);
+
+        simpleItem(ModItems.MUSGOSA_RING);
+        simpleItem(ModItems.GOLD_MUSGOSA_RING);
+
+        simpleItem(ModItems.FUNGICA_RING);
+        simpleItem(ModItems.GOLD_FUNGICA_RING);
+
+        simpleItem(ModItems.CRISTAL_RING);
+        simpleItem(ModItems.GOLD_CRISTAL_RING);
+
+        simpleItem(ModItems.TRANSLUCIDA_RING);
+        simpleItem(ModItems.GOLD_TRANSLUCIDA_RING);
+
+        simpleItem(ModItems.CORAL_RING);
+        simpleItem(ModItems.GOLD_CORAL_RING);
+
+        simpleItem(ModItems.BRUTA_RING);
+        simpleItem(ModItems.GOLD_BRUTA_RING);
+
+        simpleItem(ModItems.DIVIDIDA_RING);
+        simpleItem(ModItems.GOLD_DIVIDIDA_RING);
+
+        simpleItem(ModItems.ALMAS_RING);
+        simpleItem(ModItems.GOLD_ALMAS_RING);
+
+        simpleItem(ModItems.PURPURA_RING);
+        simpleItem(ModItems.GOLD_PURPURA_RING);
     }
 
     // Shoutout to El_Redstoniano for making this
