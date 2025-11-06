@@ -8,11 +8,9 @@ El objetivo es demostrar el uso de herramientas avanzadas del IDE y aplicar conc
 
 ## Descripción del Mod
 
-**TutorialMod** es una extensión para Minecraft que introduce nuevos **minerales, herramientas y bloques** inspirados en un mundo de fantasía y metalurgia avanzada.  
+**KebabMod** es una extensión para Minecraft que introduce nuevos **minerales, herramientas y bloques** inspirados en un mundo de fantasía y metalurgia avanzada.  
 Entre sus elementos principales destacan:
 
-- **Mithril** — un nuevo mineral raro que puede extraerse y fundirse para obtener lingotes.
-- **Herramientas de Mithril**: espada, pico, hacha, pala y azada, con mayor durabilidad y velocidad que las de hierro.
 - **Alimentos especiales**, como el **Kebbab** y el **Durum**, que restauran la salud del jugador.
 
 El mod también incluye **soporte para generación de datos automática** (data generation), lo que permite crear automáticamente modelos, texturas y recetas a partir del código Java.
@@ -89,7 +87,7 @@ src/main/resources/assets/tutorialmod/
 
 ---
 
-## ⚙️ Ejecución del Proyecto
+## Ejecución del Proyecto
 
 1. Clonar el repositorio o importar el proyecto en **IntelliJ IDEA**.  
 2. Abrir la **vista Gradle** y ejecutar:
@@ -144,21 +142,10 @@ Este proyecto demuestra:
 
 El resultado final es un mod funcional y bien estructurado, que combina **diseño visual**, **programación orientada a objetos** y **automatización profesional** dentro del ecosistema de Minecraft.
 
----
-
-## Capturas sugeridas para la memoria
-
-* Interfaz del proyecto en IntelliJ (vista de Gradle, estructura de paquetes).
-* Bloque Kebbab con sus texturas diferenciadas.
-* Receta de espada de Mithril en el juego.
-* Consola de ejecución `runData` generando archivos JSON.
-
----
-
 **Autor:** [Jorge Muñoz y Cayetano Nicolas]
 **Ciclo:** 1º DAM
 **Asignatura:** Entornos de desarrollo
-**IDE:** IntelliJ IDEA Ultimate
+**IDE:** IntelliJ IDEA Community
 **Versión de Minecraft:** 1.20.1
 **Versión de Forge:** 47.0.19
 ```
